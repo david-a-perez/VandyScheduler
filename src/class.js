@@ -4,7 +4,7 @@ class Class_ {
 		// Class Abbreviation
 		// Type: String
 		//	Ex: "CS 1101"
-		this.classAbbr = classAbbr;
+		this.classAbbr = classAbbr.replace("-", "|");
 
 		// Class Description
 		//	Type: String
